@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601B0479261832BF007A7293 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601B0478261832BF007A7293 /* StateController.swift */; };
+		601B047C26183C47007A7293 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601B047B26183C47007A7293 /* TransactionView.swift */; };
+		601B04942618605E007A7293 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601B04932618605E007A7293 /* Badge.swift */; };
 		602B9EB026172D39004A951C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B9EAF26172D39004A951C /* AppDelegate.swift */; };
 		602B9EB226172D39004A951C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B9EB126172D39004A951C /* SceneDelegate.swift */; };
 		602B9EB426172D39004A951C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B9EB326172D39004A951C /* ContentView.swift */; };
 		602B9EB626172D3A004A951C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602B9EB526172D3A004A951C /* Assets.xcassets */; };
 		602B9EB926172D3A004A951C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602B9EB826172D3A004A951C /* Preview Assets.xcassets */; };
 		602B9EBC26172D3A004A951C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602B9EBA26172D3A004A951C /* LaunchScreen.storyboard */; };
+		602B9EC626172E3E004A951C /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B9EC526172E3E004A951C /* ModelView.swift */; };
+		602B9ECB261736AD004A951C /* CatrgoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B9ECA261736AD004A951C /* CatrgoryView.swift */; };
+		602B9ED126173D11004A951C /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B9ED026173D11004A951C /* Helper.swift */; };
+		602B9ED5261742E5004A951C /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B9ED4261742E5004A951C /* BudgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		601B0478261832BF007A7293 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
+		601B047B26183C47007A7293 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		601B04932618605E007A7293 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		602B9EAC26172D39004A951C /* MVCINSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCINSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602B9EAF26172D39004A951C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		602B9EB126172D39004A951C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,10 @@
 		602B9EB826172D3A004A951C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		602B9EBB26172D3A004A951C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		602B9EBD26172D3A004A951C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602B9EC526172E3E004A951C /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
+		602B9ECA261736AD004A951C /* CatrgoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatrgoryView.swift; sourceTree = "<group>"; };
+		602B9ED026173D11004A951C /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		602B9ED4261742E5004A951C /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,10 @@
 		602B9EAE26172D39004A951C /* MVCINSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				601B04932618605E007A7293 /* Badge.swift */,
+				602B9ECF26173CF0004A951C /* ReusableCode */,
+				602B9EC926173696004A951C /* View */,
+				602B9EC426172E2A004A951C /* Model */,
 				602B9EAF26172D39004A951C /* AppDelegate.swift */,
 				602B9EB126172D39004A951C /* SceneDelegate.swift */,
 				602B9EB326172D39004A951C /* ContentView.swift */,
@@ -63,6 +81,7 @@
 				602B9EBA26172D3A004A951C /* LaunchScreen.storyboard */,
 				602B9EBD26172D3A004A951C /* Info.plist */,
 				602B9EB726172D3A004A951C /* Preview Content */,
+				601B0478261832BF007A7293 /* StateController.swift */,
 			);
 			path = MVCINSwiftUI;
 			sourceTree = "<group>";
@@ -73,6 +92,32 @@
 				602B9EB826172D3A004A951C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		602B9EC426172E2A004A951C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				602B9EC526172E3E004A951C /* ModelView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		602B9EC926173696004A951C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				602B9ECA261736AD004A951C /* CatrgoryView.swift */,
+				602B9ED4261742E5004A951C /* BudgetView.swift */,
+				601B047B26183C47007A7293 /* TransactionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		602B9ECF26173CF0004A951C /* ReusableCode */ = {
+			isa = PBXGroup;
+			children = (
+				602B9ED026173D11004A951C /* Helper.swift */,
+			);
+			path = ReusableCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,6 +151,7 @@
 				TargetAttributes = {
 					602B9EAB26172D39004A951C = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 					};
 				};
 			};
@@ -146,8 +192,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				602B9EB026172D39004A951C /* AppDelegate.swift in Sources */,
+				601B04942618605E007A7293 /* Badge.swift in Sources */,
 				602B9EB226172D39004A951C /* SceneDelegate.swift in Sources */,
+				602B9ECB261736AD004A951C /* CatrgoryView.swift in Sources */,
+				602B9EC626172E3E004A951C /* ModelView.swift in Sources */,
+				602B9ED5261742E5004A951C /* BudgetView.swift in Sources */,
+				601B0479261832BF007A7293 /* StateController.swift in Sources */,
 				602B9EB426172D39004A951C /* ContentView.swift in Sources */,
+				602B9ED126173D11004A951C /* Helper.swift in Sources */,
+				601B047C26183C47007A7293 /* TransactionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MVCINSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = DD73F8592Z;
@@ -297,6 +351,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.MVCINSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MVCINSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = DD73F8592Z;
@@ -318,6 +375,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.MVCINSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
