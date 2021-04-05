@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		601B0479261832BF007A7293 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601B0478261832BF007A7293 /* StateController.swift */; };
 		601B047C26183C47007A7293 /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601B047B26183C47007A7293 /* TransactionView.swift */; };
-		601B04942618605E007A7293 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601B04932618605E007A7293 /* Badge.swift */; };
 		602B9EB026172D39004A951C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B9EAF26172D39004A951C /* AppDelegate.swift */; };
 		602B9EB226172D39004A951C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B9EB126172D39004A951C /* SceneDelegate.swift */; };
 		602B9EB426172D39004A951C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602B9EB326172D39004A951C /* ContentView.swift */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		601B0478261832BF007A7293 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		601B047B26183C47007A7293 /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
-		601B04932618605E007A7293 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		602B9EAC26172D39004A951C /* MVCINSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCINSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602B9EAF26172D39004A951C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		602B9EB126172D39004A951C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 		602B9EAE26172D39004A951C /* MVCINSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				601B04932618605E007A7293 /* Badge.swift */,
 				602B9ECF26173CF0004A951C /* ReusableCode */,
 				602B9EC926173696004A951C /* View */,
 				602B9EC426172E2A004A951C /* Model */,
@@ -192,7 +189,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				602B9EB026172D39004A951C /* AppDelegate.swift in Sources */,
-				601B04942618605E007A7293 /* Badge.swift in Sources */,
 				602B9EB226172D39004A951C /* SceneDelegate.swift in Sources */,
 				602B9ECB261736AD004A951C /* CatrgoryView.swift in Sources */,
 				602B9EC626172E3E004A951C /* ModelView.swift in Sources */,
@@ -345,10 +341,7 @@
 				DEVELOPMENT_TEAM = DD73F8592Z;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MVCINSwiftUI/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.MVCINSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -369,10 +362,7 @@
 				DEVELOPMENT_TEAM = DD73F8592Z;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MVCINSwiftUI/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = knoxpo.MVCINSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
